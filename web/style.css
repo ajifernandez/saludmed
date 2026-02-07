@@ -675,3 +675,6 @@ ul {
         order: unset; /* Stack normally on mobile */
     }
 }
+
+.text-primary { color: var(--color-primary); font-weight: 500; text-decoration: underline; }
+.text-primary:hover { color: var(--color-primary-dark); }
