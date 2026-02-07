@@ -12,6 +12,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Scroll Animations (Intersection Observer)
+    // Slow scroll for verification
+    (async () => {
+      const distance = 100;
+      const delay = 100;
+      // Only run if checking verification (optional, keeping for now)
+      // while (document.scrollingElement.scrollTop + window.innerHeight < document.scrollingElement.scrollHeight) {
+      //   window.scrollBy(0, distance);
+      //   await new Promise(resolve => setTimeout(resolve, delay));
+      // }
+    })();
+
     const observerOptions = {
         root: null,
         rootMargin: '0px',
