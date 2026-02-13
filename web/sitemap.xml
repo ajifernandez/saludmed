@@ -1,29 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   <url>
-      <loc>https://salud-medical-volunteers.com/</loc>
-      <lastmod>2026-02-07</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>1.0</priority>
-   </url>
-   <url>
-      <loc>https://salud-medical-volunteers.com/#about</loc>
-      <priority>0.8</priority>
-   </url>
-   <url>
-      <loc>https://salud-medical-volunteers.com/#program</loc>
-      <priority>0.8</priority>
-   </url>
-   <url>
-      <loc>https://salud-medical-volunteers.com/#location</loc>
-      <priority>0.7</priority>
-   </url>
-   <url>
-      <loc>https://salud-medical-volunteers.com/#costs</loc>
-      <priority>0.9</priority>
-   </url>
-   <url>
-      <loc>https://salud-medical-volunteers.com/#contact</loc>
-      <priority>0.9</priority>
-   </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+     
+     <url>
+         <loc>https://salud-medical-volunteers.com/</loc>
+         <lastmod>2026-02-13</lastmod>
+         <changefreq>weekly</changefreq>
+         <priority>1.0</priority>
+         <image:image>
+             <image:loc>https://salud-medical-volunteers.com/images/hero.jpg</image:loc>
+             <image:title>Salud-Medical Volunteers - Medical volunteering in Uganda</image:title>
+             <image:caption>Medical volunteers supporting communities in Fort Portal, Uganda</image:caption>
+         </image:image>
+     </url>
+     
+     <url>
+         <loc>https://salud-medical-volunteers.com/#about</loc>
+         <lastmod>2026-02-13</lastmod>
+         <changefreq>monthly</changefreq>
+         <priority>0.9</priority>
+     </url>
+     
+     <url>
+         <loc>https://salud-medical-volunteers.com/#location</loc>
+         <lastmod>2026-02-13</lastmod>
+         <changefreq>monthly</changefreq>
+         <priority>0.8</priority>
+     </url>
+     
+     <url>
+         <loc>https://salud-medical-volunteers.com/#program</loc>
+         <lastmod>2026-02-13</lastmod>
+         <changefreq>monthly</changefreq>
+         <priority>0.9</priority>
+     </url>
+     
+     <url>
+         <loc>https://salud-medical-volunteers.com/#accommodation</loc>
+         <lastmod>2026-02-13</lastmod>
+         <changefreq>monthly</changefreq>
+         <priority>0.7</priority>
+     </url>
+     
+     <url>
+         <loc>https://salud-medical-volunteers.com/#costs</loc>
+         <lastmod>2026-02-13</lastmod>
+         <changefreq>monthly</changefreq>
+         <priority>0.8</priority>
+     </url>
+     
+     <url>
+         <loc>https://salud-medical-volunteers.com/#contact</loc>
+         <lastmod>2026-02-13</lastmod>
+         <changefreq>monthly</changefreq>
+         <priority>0.8</priority>
+     </url>
 </urlset>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e74c3c"/>
+      <stop offset="100%" style="stop-color:#c0392b"/>
+    </linearGradient>
+  </defs>
+  <rect width="180" height="180" rx="20" fill="url(#bg)"/>
+  <!-- Medical cross symbol -->
+  <rect x="80" y="35" width="20" height="110" fill="white" opacity="0.9"/>
+  <rect x="35" y="80" width="110" height="20" fill="white" opacity="0.9"/>
+  <!-- Heart symbol for caring -->
+  <path d="M110 120c-5 5-10 5-10 5s-5 0-10-5c-5-5-10-10-10-15s5-10 10-10 5 0 10 5c5-5 5-5 10-5s10 5 10 10-5 10-10 15z" fill="white" opacity="0.7"/>
+</svg>

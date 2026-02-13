@@ -5,9 +5,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (navToggle) {
         navToggle.addEventListener('click', () => {
-            // navList.classList.toggle('nav__list--active');
-            // navToggle.classList.toggle('nav__toggle--active');
-            console.log('Toggle menu');
+            if (!navList) return;
+            navList.classList.toggle('nav__list--active');
+            navToggle.classList.toggle('nav__toggle--active');
+
+            const isExpanded = navToggle.classList.contains('nav__toggle--active');
+            navToggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
         });
     }
 
