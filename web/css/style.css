@@ -2,9 +2,9 @@
     /* Colors */
     --color-primary: #10B981; /* Emerald Green */
     --color-primary-dark: #059669;
-    --color-secondary: #EA580C; /* Burnt Orange */
+    --color-secondary: #6B7280; /* Gray for secondary text */
     --color-text: #1F2937;
-    --color-text-light: #6B7280;
+    --color-text-light: #9CA3AF;
     --color-bg: #F9FAFB;
     --color-white: #FFFFFF;
     --color-black: #000000;
@@ -1500,6 +1500,19 @@ ul {
 .radius-md { border-radius: var(--radius-md); }
 .full-width { width: 100%; }
 .text-secondary { color: var(--color-secondary); }
+
+/* Consistent text styling */
+.text-center p {
+    color: var(--color-text);
+    line-height: 1.7;
+    font-family: var(--font-sans);
+}
+
+.about__content p {
+    color: var(--color-text);
+    line-height: 1.7;
+    font-family: var(--font-sans);
+}
 
 /* Layout Adjustments */
 .about__grid {
